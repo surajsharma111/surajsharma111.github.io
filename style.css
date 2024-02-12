@@ -1,0 +1,622 @@
+@font-face {
+    font-family:"Outfit", sans-serif; 
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    width: 100vw;
+    font-family:"Outfit", sans-serif; 
+
+}
+.mega-container{
+   background-color: rgb(38, 38, 38);
+   
+}
+
+.header-container{
+    width: 100vw;
+    height: 70px;
+    box-sizing: border-box;
+   
+}
+.header-content{
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 50vw;
+    align-items: center;
+    background-color: hsla(0, 7%, 3%, 0.894);
+}
+
+.menu-section {
+    width: 30vw;
+    box-sizing: border-box;
+    
+}
+.profile-section{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+   
+}
+.profile-section .profile-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(./assets/images/profile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.menu-section nav ul {
+    display: flex;
+    flex-direction: row;
+    height: 3vw;
+    gap: 3vw;
+   align-items: center;
+   justify-content: center;
+   padding:  0 1vw;
+
+    
+}
+
+.menu-section nav ul li{
+    list-style: none;
+}
+.menu-section nav ul li  a:hover{
+    color: rgb(251,146,60);
+}
+.menu-section nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family:"Outfit", sans-serif; 
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.social-icons div svg{
+    width: 24px;
+    height: 24px;
+}
+.social-icons div a > svg:hover{
+    color: rgb(251,146,60);
+}
+
+.home-content{
+position: relative;
+height: calc(100vh - 70px);
+width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+background-image: url(./assets/backgrounds/istockphoto-1401294758-612x612.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:top;
+margin-bottom: 50px;
+
+
+}
+.text-title h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    font-family:"Outfit", sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.social-icons svg{
+    color: wheat;
+}
+.anchor{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.anchor a {
+    text-decoration: none;
+    font-family:"Outfit", sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24;
+
+}
+.anchor a, span{
+    color: white;
+}
+.anchor .resume, .send-message a{
+    border: 2px solid orangered;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    border-radius:30px ;
+    width: 114px;
+    gap: 15px;
+    
+}
+.send-message a{
+    padding:0 5px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    margin-top: 20px;
+}
+.resume> a{
+    margin-left: 10px;
+
+}
+.resume> span{
+    margin-right: 10px;
+}
+.anchor .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    height: 44px;
+    width: 97px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.svg-dropdown svg{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: #000;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    bottom: 5px;
+    left: calc(50vw - 17px);
+}
+.aboutme-section{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(38,38,38);
+    margin-bottom: 25px;
+   
+   
+}
+.about-content{
+   width: 95vw;
+   height: 50vh;
+   margin: 0px auto;
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   grid-template-rows: 1;
+   box-sizing: border-box;
+
+     
+}
+.description-section{
+    grid-area: 1/2/2/3;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
+    /* 
+       display: flex;
+    flex-direction: column;
+    gap: 20px;
+    */
+
+ 
+
+}
+.image-section{
+    grid-area: 1/1/2/2;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.image-section img{
+    width: 128px;
+    height: 128px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+   
+}
+.discription-text p{
+    color: black;
+    text-wrap: wrap;
+    width: 600px;
+}
+.interest{
+    display: flex;
+    flex-direction: row;
+}
+.interest svg{
+    height: 20px;
+    width: 20px;
+}
+.header3{
+    grid-area: 2/1/3/2;
+}
+.discription-text{
+    grid-area: 3/1/4/2;
+}
+.interest{
+    grid-area:4/1/5/2 ;
+}
+.header3 h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+}
+.discription-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(209, 213, 219);
+}
+.interest svg{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+.interest p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+
+}
+.interest p > span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(209, 213, 219);
+}
+.skillsSet-container{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 2fr 1.3fr;
+    width: 85vw;
+    margin: 0px auto;
+    row-gap: 25px;
+  
+
+}
+.projects-container img{
+    height: 120px;
+    width: 218px;
+    border-radius: 10px;
+}
+.education-container{
+    grid-area: 1/1/2/2;
+}
+.projects-container{
+    grid-area: 2/1/3/2;
+}
+.skills-container{
+    grid-area: 3/1/4/2;
+}
+.education-container,  .projects-container, .skills-container{
+    
+    border-bottom: 1px solid rgb(212,212,212);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr 2fr ;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.higher-education{
+    grid-area: 1/1/2/2;
+    
+}
+.education-title h2, .projects-title h2, .skills-title h2{
+    Font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+     color: rgb(38, 38, 38);
+     border-bottom: rgb(251,146,60);
+     padding: 5px;
+
+
+}
+.title-wraper{
+    border-bottom: 2px solid rgb(251,146,60);
+    display: inline-block;
+    margin: 0px auto;
+}
+.education-details h3, .projects-details h3{
+    font-family:"Outfit", sans-serif; 
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(68, 68, 68);
+   
+}
+
+.education-details h4, .projects-details p{
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(94, 93, 93);
+    font-style: italic;
+}
+.projects-details p{
+    width: 450px;
+}
+.education-details span{
+    color: rgb(94, 93, 93);;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+.projects-details ol{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    list-style: lower-roman;
+}
+.netflix-clone, .tesla-clone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.education-details{
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projects-container{
+    grid-area: 2/1/3/2;
+    border-bottom: 1px solid rgb(212,212,212);
+}
+
+.skills-container{
+    grid-area: 3/1/4/2;
+    border-bottom: 1px solid rgb(212,212,212);
+    
+}
+.range{
+width: 335px;
+height: 20px;
+background-color: rgb(212,212,212);
+border-radius: 9999px;
+
+}
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+
+}
+.range .range-value-html{
+    width: 90%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+
+}
+.range .range-value-css{
+    width: 94%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-react{
+    width: 24%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-javascript{
+    width: 44%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-nodejs{
+    width: 4%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-expressjs{
+    width: 4%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-nestjs{
+    width: 4%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-golang{
+    width: 4%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-mysql{
+    width: 20%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-mongodb{
+    width: 4%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.range .range-value-flutter{
+    width: 34%;
+    height: 100%;
+    border-radius: 9999px;  
+    background-color:  rgb(251,146,60);
+}
+.third-wraper{
+    width: 100vw;
+    background-color: white;
+}
+.skills-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+
+}
+.flexbox-container h3{
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(94, 93, 93);
+    font-style: italic;   
+}
+ .contact-container{
+    width: 100vw;
+    background-color: rgb(38, 38, 38);
+    margin-top: 60px;
+}
+.contact-content{
+    width: 78vw;
+    margin: 0px auto;
+}
+.form-container{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr;
+ 
+ 
+}
+form{
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+.reachout-container{
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.reachout-container p{
+    color: rgb(212, 212, 212);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.reachout-container a{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    width: fit-content;
+}
+.reachout-container a:active{
+    border: 2px solid rgb(251,146,60);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.getintouch>svg{
+    height: 64px;
+    width: 64px;
+    color: rgb(212, 212, 212);
+}
+.getintouch{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+   margin-bottom: 15px;
+}
+.getintouch h2{
+    color: rgb(212, 212, 212);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.reachout-container svg{
+    height: 20px;
+    width: 20px;
+}
+input[type = "name"], input[type = "email"]{
+    width: 500px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: rgb(64,64,64);
+    border: none;
+}
+textarea{
+    width: 500px;
+    height: 142px;
+    border-radius: 8px;
+    background-color: rgb(64,64,64);
+    border: none;
+}
+.footer-section{
+    height: 18vh;
+    width: 100vw;
+   background-color: rgb(23, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.flexbox-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flexbox-footer .social-icons{
+    justify-content:  center;
+    
+}
+.flexbox-footer .social-icons div a svg{
+    color: rgb(64,64,64);
+}
+.flexbox-footer .social-icons div a svg:hover{
+    color: rgb(251,146,60);
+}
+.flexbox-footer .copyright-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright-text p{
+    color: rgb(64,64,64);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+   
+}
