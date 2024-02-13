@@ -6,19 +6,25 @@
     font-style: normal;
 }
 body{
+    /*
     width: 100vw;
+    */
     font-family:"Outfit", sans-serif; 
 
 }
 .mega-container{
    background-color: rgb(38, 38, 38);
    box-sizing: border-box;
-   width: 100vw;
+  /*
+    width: 100vw;
+    */
    
 }
 
 .header-container{
+    /*
     width: 100vw;
+    */
     height: 70px;
     box-sizing: border-box;
    
@@ -91,7 +97,9 @@ body{
 .home-content{
 position: relative;
 height: calc(100vh - 70px);
-width: 100vw;
+ /*
+    width: 100vw;
+    */
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -220,7 +228,9 @@ margin-bottom: 50px;
     left: calc(50vw - 17px);
 }
 .aboutme-section{
+     /*
     width: 100vw;
+    */
     height: 50vh;
     background-color: rgb(38,38,38);
     margin-bottom: 25px;
@@ -509,7 +519,9 @@ border-radius: 9999px;
     background-color:  rgb(251,146,60);
 }
 .third-wraper{
+     /*
     width: 100vw;
+    */
     background-color: white;
 }
 .skills-details{
