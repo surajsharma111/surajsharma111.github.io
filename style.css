@@ -635,7 +635,9 @@ textarea{
 }
 .footer-section{
     height: 18vh;
+     /*
     width: 100vw;
+    */
    background-color: rgb(23, 23, 23);
     display: flex;
     align-items: center;
