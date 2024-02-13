@@ -507,9 +507,7 @@ border-radius: 9999px;
     background-color:  rgb(251,146,60);
 }
 .third-wraper{
-     /*
-    width: 100vw;
-    */
+    
     background-color: white;
 }
 .skills-details{
@@ -527,7 +525,7 @@ border-radius: 9999px;
     font-style: italic;   
 }
  .contact-container{
-    width: 100vw;
+   
     background-color: rgb(38, 38, 38);
     margin-top: 60px;
 }
@@ -623,9 +621,6 @@ textarea{
 }
 .footer-section{
     height: 18vh;
-     /*
-    width: 100vw;
-    */
    background-color: rgb(23, 23, 23);
     display: flex;
     align-items: center;
