@@ -86,7 +86,7 @@ body{
 }
 
 .home-content{
-position: relative;
+
 height: calc(100vh - 70px);
 display: flex;
 flex-direction: column;
@@ -271,6 +271,10 @@ margin-bottom: 50px;
     font-weight: 400;
     line-height: 28px;
     color: rgb(209, 213, 219);
+    
+    
+    
+
 }
 .interest svg{
     font-size: 16px;
@@ -374,7 +378,7 @@ margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    list-style: lower-roman;
+    list-style: none;
 }
 .netflix-clone, .tesla-clone{
     display: flex;
@@ -621,4 +625,232 @@ textarea{
     font-weight: 400;
     line-height: 24px;
    
+}
+.menu-section .hamburger-menu span{
+    display: none;
+}
+/*
+Media Screen applies for tablet view
+
+*/
+@media screen  and (max-width: 800px) and (min-width:480px){
+    body{
+        font-family:"Outfit", sans-serif; 
+        background-color: rgb(38, 38, 38);
+    }
+
+    .header-container{
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+        background-color: hsla(0, 7%, 3%, 0.894);
+    }
+    .header-content{
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction:row ;
+        gap: 75%;
+
+
+    }
+
+    .menu-section nav ul{
+        display: none;
+    }
+    .menu-section .hamburger-menu span{
+        display: block;
+        position: relative;
+        color: #fff;
+    }
+    .profile-section .profile-image{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-image: url(./assets/images/profile.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .menu-section .hamburger-menu {
+        position: relative;
+    }
+    .menu-section .hamburger-menu span:hover {
+
+        color: rgb(251,146,60);
+      
+
+    }
+    .menu-section .hamburger-menu span:hover:active + ul{
+        position: absolute;
+        top:30px;
+        right: 5%;
+        height: 180px;
+        width: 180px;
+        text-align: center;
+       display: flex;
+       color: #000;
+       z-index: 5;
+       display: flex;
+       flex-direction: column;
+       color: #fff;
+       backdrop-filter: blur(13px) saturate(180%);
+       -webkit-backdrop-filter: blur(13px) saturate(180%);
+       background-color: rgba(255, 255, 255, 0.53);
+       border-radius: 12px;
+       border: 1px solid rgba(209, 213, 219, 0.3);
+       transition-property: active;
+       transition-duration: 10s;
+       
+       
+       
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background-image: url(./assets/backgrounds/istockphoto-1401294758-612x612.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:top;
+      
+        
+        
+        }
+        .text-title h1{
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 45px;
+            font-family:"Outfit", sans-serif;
+            color: white;
+            text-align: center;
+        }
+        
+        .aboutme-section{
+
+            background-color: rgb(38,38,38);
+            margin-bottom: 15px;
+            height: 70vh;
+        
+        
+        }
+        .about-content{
+            width: 95vw;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;       
+        }
+
+        .image-section{
+            width: 200px;
+            height: 200px;
+            margin: 0px auto;
+            margin-bottom: 20px;
+        }
+        .image-section img{
+            position: relative;
+            top: 0;
+            height: 100%;
+            width: 100%;
+        }
+    
+    .description-section{
+    
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+       
+    
+
+    }
+    .header3 h3{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 20px;
+    }
+     
+   
+    .discription-text p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(209, 213, 219);
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .interest{
+        display: flex;
+        flex-direction: row;
+    }
+    .interest svg{
+        height: 20px;
+        width: 20px;
+
+
+    } 
+    .skillsSet-container{
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.5fr 1fr;
+        width: 85vw;
+        margin: 0px auto;
+        row-gap: 25px;
+      
+    
+    }
+    .education-container,  .projects-container, .skills-container{
+    
+        border-bottom: 1px solid rgb(212,212,212);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+    .netflix-clone, .tesla-clone{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects-details ol{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        list-style:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexbox-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+       
+    
+    }
+    .skills-details{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
