@@ -918,6 +918,7 @@ Media screen for mobile view
     body{
         font-family:"Outfit", sans-serif; 
         background-color: rgb(38, 38, 38);
+        width: 100%;
     }
 
     .header-container{
@@ -925,7 +926,7 @@ Media screen for mobile view
         height: 60px;
         box-sizing: border-box;
         background-color: hsla(0, 7%, 3%, 0.894);
-        border: 1px solid white;
+       
     }
     .header-content{
         width: 90%;
@@ -1017,7 +1018,7 @@ Media screen for mobile view
         }
         
         .aboutme-section{
-
+            width: 100%;
             background-color: rgb(38,38,38);
             margin-bottom: 15px;
             height: 100vh;
@@ -1025,11 +1026,12 @@ Media screen for mobile view
         
         }
         .about-content{
-            width: 95vw;
+            
             margin: 0px auto;
             display: flex;
             flex-direction: column;
             box-sizing: border-box;
+            height: 100vh;
                  
         }
 
