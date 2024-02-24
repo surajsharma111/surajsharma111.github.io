@@ -904,6 +904,8 @@ form{
     margin-top: 10px;
 }
 }
+
+
 /*
 Media screen for mobile view
 */
@@ -920,9 +922,10 @@ Media screen for mobile view
 
     .header-container{
         width: 100%;
-        height: 40px;
+        height: 60px;
         box-sizing: border-box;
         background-color: hsla(0, 7%, 3%, 0.894);
+        border: 1px solid white;
     }
     .header-content{
         width: 90%;
@@ -1017,8 +1020,8 @@ Media screen for mobile view
 
             background-color: rgb(38,38,38);
             margin-bottom: 15px;
-            height: 70vh;
-        
+            height: 100vh;
+            border: 1px solid white; 
         
         }
         .about-content{
@@ -1026,7 +1029,8 @@ Media screen for mobile view
             margin: 0px auto;
             display: flex;
             flex-direction: column;
-            box-sizing: border-box;       
+            box-sizing: border-box;
+                 
         }
 
         .image-section{
