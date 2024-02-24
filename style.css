@@ -918,7 +918,7 @@ Media screen for mobile view
     body{
         font-family:"Outfit", sans-serif; 
         background-color: rgb(38, 38, 38);
-        width: 100%;
+        width: 100%
     }
 
     .header-container{
@@ -934,7 +934,7 @@ Media screen for mobile view
         display: flex;
         flex-direction:row ;
         gap: 75%;
-
+        
 
     }
 
