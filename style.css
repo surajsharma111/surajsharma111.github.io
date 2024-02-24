@@ -633,6 +633,7 @@ textarea{
 Media Screen applies for tablet view
 
 */
+
 @media screen  and (max-width: 800px) and (min-width:480px){
     body{
         font-family:"Outfit", sans-serif; 
@@ -906,6 +907,11 @@ form{
 /*
 Media screen for mobile view
 */
+
+
+
+
+
 @media screen and (max-width: 479px) {
     body{
         font-family:"Outfit", sans-serif; 
@@ -970,6 +976,7 @@ Media screen for mobile view
         
     }
 
+    
     .menu-section .hamburger-menu span:hover +.card{
         display: flex;
         
@@ -1176,4 +1183,8 @@ form{
     margin-top: 10px;
 }
     
+}
+
+.menu-section .hamburger-menu .show-menu {
+    display: flex;
 }
