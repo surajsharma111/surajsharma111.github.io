@@ -995,6 +995,7 @@ Media screen for mobile view
 
     .home-content{
         display: flex;
+        width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
