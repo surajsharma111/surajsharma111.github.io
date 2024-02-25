@@ -1153,7 +1153,7 @@ Media screen for mobile view
         justify-content: center;
     }
     .getintouch{
-        justify-content: center
+        justify-content: flex-start
 
     }
     .contact-container{
