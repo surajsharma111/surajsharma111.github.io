@@ -134,6 +134,7 @@ margin-bottom: 50px;
 }
 .send-message{
     width: 140px;
+    height: 44px;
 }
 
 .resume a, .contact a, .send-message a{ 
@@ -1005,7 +1006,7 @@ Media screen for mobile view
         background-repeat: no-repeat;
         background-size: cover;
         background-position:top;
-        border: 1px solid white;
+      
         
         
         }
@@ -1022,8 +1023,7 @@ Media screen for mobile view
             width: 100%;
             background-color: rgb(38,38,38);
             margin-bottom: 15px;
-            height: 100vh;
-            border: 1px solid white; 
+       
         
         }
         .about-content{
@@ -1032,7 +1032,7 @@ Media screen for mobile view
             display: flex;
             flex-direction: column;
             box-sizing: border-box;
-            height: 100vh;
+            
                  
         }
 
@@ -1091,7 +1091,7 @@ Media screen for mobile view
 
     } 
     .third-wraper{
-        border: 1px solid black;
+       
         margin-top: 220px;
     }
     .skillsSet-container{
@@ -1101,7 +1101,6 @@ Media screen for mobile view
         flex-direction: column;
         margin-top: 20px;
         margin: 0px auto;
-        border: 1px solid red;
         box-sizing: border-box;
      
       
@@ -1157,12 +1156,28 @@ Media screen for mobile view
         justify-content: center
 
     }
+    .contact-container{
+        background-color: rgb(38, 38, 38);
+        margin-top: 60px;
+        box-sizing: border-box;
+        width: 90%;
+        margin: 0px auto;
+    }
+    .contact-content{
+        
+        margin: 0px auto;
+        box-sizing: border-box;
+        width: 100%;
+    }
    
     .form-container{
+            
             display: flex;
             flex-direction: column;
             gap: 20px;
-            height: 50vh;
+            width: 100%;
+          
+        
           
  
     }
@@ -1172,8 +1187,12 @@ form{
     flex-direction: column;
     gap: 2px;
     align-items: center;
+    width: 100%;
     
     
+}
+input[type ="name"],input[type ="email"], textarea{
+    width: 100%;
 }
 .send-message{
     align-self: flex-start;
@@ -1198,6 +1217,25 @@ form{
     font-weight: 400;
     line-height: 24px;
     margin-top: 10px;
+}
+.send-message a{
+    border: 1px solid rgb(251,146,60);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:"Outfit", sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 2px;
+    border-radius: 20px;
+    color: #fff;
+}
 }
     
 }
