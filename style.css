@@ -1196,7 +1196,7 @@ input[type ="name"],input[type ="email"], textarea{
 }
 .send-message{
     align-self: flex-start;
-    margin-left: 50px;
+  
 }
 
 .reachout-container{
@@ -1238,7 +1238,7 @@ input[type ="name"],input[type ="email"], textarea{
 }
 }
     
-}
+
 
 .menu-section .hamburger-menu .show-menu {
     display: flex;
