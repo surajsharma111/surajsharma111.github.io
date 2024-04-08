@@ -308,9 +308,18 @@ margin-bottom: 50px;
 
 }
 .projects-container img{
-    height: 120px;
-    width: 218px;
+    height: 150px;
     border-radius: 10px;
+}
+.projects-container img:hover{
+    scale: 1.05;
+}
+ #clock-image{
+    height: 180px;
+    margin-top: 10px;
+}
+#clock-image:hover {
+    scale: 1.1;
 }
 .education-container{
     grid-area: 1/1/2/2;
@@ -381,7 +390,7 @@ margin-bottom: 50px;
     gap: 50px;
     list-style: none;
 }
-.netflix-clone, .tesla-clone{
+.todoApplication, .analog-clock{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -826,7 +835,7 @@ Media Screen applies for tablet view
         align-items: center;
         padding-bottom: 25px;
     }
-    .netflix-clone, .tesla-clone{
+    .netflix-clone, .analog-clock{
         display: flex;
         flex-direction: column;
         gap: 20px;
