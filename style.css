@@ -315,7 +315,7 @@ margin-bottom: 50px;
     scale: 1.05;
 }
  #clock-image{
-    height: 180px;
+    width: 218px;
     margin-top: 10px;
 }
 #clock-image:hover {
